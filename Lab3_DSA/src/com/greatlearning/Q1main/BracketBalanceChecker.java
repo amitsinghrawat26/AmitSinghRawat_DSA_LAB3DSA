@@ -15,14 +15,6 @@ public class BracketBalanceChecker {
 			if(ch=='('|| ch==')')
 			push(array,ch);
 			
-			/*
-			System.out.print("\nCurrent Stack Details : ");
-			for(int k=0; k<=top; k++)
-			{
-				System.out.print(array[k]+" ");
-			}
-			 */
-			
 			for(int j=top; j>0; j--)
 			{
 				if(array[j-1]=='(' && array[j]==')')
